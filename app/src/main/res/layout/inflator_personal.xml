@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_2"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/dp_2"
+        app:elevation="@dimen/dp_5">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/dp_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/dp_2"
+                android:background="@color/color_E6E8ED"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:padding="@dimen/dp_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:text="Person Name"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:padding="@dimen/dp_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:text="Vikash "
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/dp_2"
+                android:background="@color/color_E6E8ED"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_1"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:padding="@dimen/dp_2"
+                    android:maxLines="1"
+                    android:text="Last Name"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:padding="@dimen/dp_2"
+                    android:maxLines="1"
+                    android:text="Kumar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/dp_2"
+                android:background="@color/color_E6E8ED"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_1"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:padding="@dimen/dp_2"
+                    android:maxLines="1"
+                    android:text="Email Id"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_2"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:text="Vikash_vk@nsbbpo.in"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/dp_2"
+                android:background="@color/color_E6E8ED"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_1"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:padding="@dimen/dp_2"
+                    android:maxLines="1"
+                    android:text="Mobile Number"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:padding="@dimen/dp_2"
+                    android:maxLines="1"
+                    android:text="8888888888"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/dp_2"
+                android:background="@color/color_E6E8ED"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_1"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:padding="@dimen/dp_2"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:text="Age"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:text="39"
+                    android:padding="@dimen/dp_2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/dp_2"
+                android:background="@color/color_E6E8ED"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_1"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:text="Address"
+                    android:padding="@dimen/dp_2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+                <com.docx.farmersupport.customs.CustomTextView
+                    android:background="@color/white"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:ellipsize="end"
+                    android:gravity="left|center"
+                    android:maxLines="1"
+                    android:text="39"
+                    android:padding="@dimen/dp_2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_435464"
+                    android:textSize="@dimen/sp_7"
+                    android:textStyle="bold"
+                    app:ctypeface="OpenSans-Semibold.ttf" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
